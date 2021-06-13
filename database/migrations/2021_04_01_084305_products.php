@@ -21,6 +21,9 @@ class Products extends Migration
             $table->integer('category_id')->nullable();
             $table->string('image')->nullable();
             $table->string('video')->nullable();
+            $table->string('color')->nullable();
+            $table->string('size')->nullable();
+
             $table->timestamps();
         });
     }
